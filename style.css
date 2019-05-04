@@ -1,0 +1,920 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'TruenoRegular'; 
+  font-weight: normal; 
+  font-style: normal;
+  /* font-family: 'Oswald', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  width: 100%;
+}
+
+/*================================================================================================================================================================
+                                                                   Описание стилей - HEADER. top header.                                
+==================================================================================================================================================================*/
+
+header {
+  background: #472424;
+  width: 100%;
+}
+
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.nav_left {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav_left ul {
+  display: flex;
+}
+
+.nav_left a {
+  padding: 20px 20px;
+  color: #FFF;
+}
+
+.nav_left a:hover {
+  background-color: #ff7373;
+}
+
+.nav_right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav_right ul {
+  display: flex;
+}
+
+.nav_right a {
+  padding: 20px 20px; 
+  color: #FFF;
+}
+
+.nav_right a:hover {
+  background-color: #ff7373;
+}
+
+.basket {
+  border-right: 1px solid #5a3a3a;
+}
+
+/*================================================================================================================================================================
+                                                                 Описание стилей - NAV. navigation. LOGO.                              
+==================================================================================================================================================================*/
+
+nav {
+  background: #623232;
+}
+
+.logo {
+  margin-top: 26px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  margin-bottom: 31px;
+  margin-top: 31px;
+}
+
+.navigation a {
+  color: #FFF;;
+  margin-left: 20px;
+  padding-bottom: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
+}
+
+.navigation a:hover {
+  border-bottom: 4px solid #ff7373;
+  color: #ff7373;;
+}
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (1 slide) container-stock.                               
+==================================================================================================================================================================*/
+
+.container-stock {
+  height: 438px;
+  background-color: #f0efee;
+}
+
+.banner-sale {
+  position: relative;
+}
+
+.banner-img {
+  position: absolute;
+  width: 690px;
+  top: -70px;
+}
+
+.banner_stock {
+  margin-left: 725px;
+  font-size: 30px;
+  color: #623232;
+  padding-top: 47px;
+}
+
+.banner_name {
+  margin-left: 725px;
+  font-size: 70px;
+  font-weight: bold;
+  color: #623232;
+  
+}
+
+.banner_var {
+  margin-left: 725px;
+  color: #ff7373;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner_description {
+  margin-left: 725px;
+  color: #8a8784;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.input_browse {
+  margin-left: 725px;
+  padding: 18px 47px;
+  background-color: #ff7373;
+  color: #fff;
+}
+
+.input_browse:hover {
+  cursor: pointer;
+  background-color: #623232;
+}
+
+/*================================================================================================================================================================
+                                                                    Описание стилей - (2 slide) collection_container.                              
+==================================================================================================================================================================*/
+
+.collection_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection_boots-1 {
+  background-image: url(images/Kyrie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 540px;
+  height: 540px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nike_Kyrie {
+  position: absolute;
+  left: -15px;
+  top: 228px;
+}
+
+.collection_boots-1 a {
+  color: #000;
+  padding: 18px 30px;
+  background-color: #4bd8cd;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.collection_boots-1 a:hover {
+  background-color: #ff7373;
+}
+
+.boots-1_title-name {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.boots-1_subtitle-name {
+  color: #4bd8cd;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collection_boots-2 {
+  background-image: url(images/NewArrivals.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 555px;
+  height: 284px;
+  margin-top: 25.5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boots-2_title-name {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 70px;
+  font-weight: 400;
+}
+
+.block_boots-2-name {
+  margin-left: 150px;
+}
+
+.boots-2_subtitle-name {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collection_boots-2 a {
+  color: #fff;
+  padding: 18px 30px;
+  background-color: #623232;
+  margin-bottom: 60px;
+  margin-left: 150px;
+}
+
+.collection_boots-2 a:hover {
+  background-color: #4bd8cd;
+}
+
+.collection_boots-3 {
+  background-image: url(images/Athletes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 255px;
+  height: 255px;
+  margin-left: 16px;
+  margin-top: 26px;
+  text-align: center;
+}
+
+.collection_boots-3:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.boots-3_title-name {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 148px;
+}
+
+.boots-3_subtitle-name {
+  color: #ff7373;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.collection_boots-4 {
+  background-image: url(images/Premium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 255px;
+  height: 255px;
+  margin-top: 26px;
+  text-align: center;
+}
+
+.collection_boots-4:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.boots-4_title-name {
+  color: #6b7072;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.boots-4_subtitle-name {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.collection_new-1 {
+  margin-right: 10px;
+  height: 540px;
+}
+
+.collection_new-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 540px;
+}
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (3 slide) cards_block.                              
+==================================================================================================================================================================*/
+
+.cards_block {
+  margin-top: 125px;
+}
+
+.name {
+  display: flex;
+  font-size: 30px;
+  text-transform: uppercase;
+  justify-content: center;
+  /* margin-top: 100px; */
+  margin-bottom: 50px;
+}
+
+.name p {
+  margin-right: 40px;
+}
+
+.name p:hover {
+  cursor: pointer;
+}
+
+.name p:last-child {
+  margin-right: 0;
+}
+
+.name p:first-child {
+  color: #623232;
+  font-weight: bold;
+}
+
+.name p:nth-child(2) {
+  color: #bdb9b5;
+}
+
+.name p:nth-child(3) {
+  color: #bdb9b5;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #e0dfde;
+  padding: 27px 0 27px 27px;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  border: 1px solid #623232;
+  cursor: pointer;
+}
+
+.card img {
+  margin-right: 27px;
+}
+
+.cost-sale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cost {
+  color: #8a8784;
+  font-size: 24px;
+}
+
+.cost-sale {
+  font-size: 24px;
+  color: #ff7373;
+}
+
+.sale {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #8a8784;
+}
+
+.card img {
+  margin-bottom: 68px;
+}
+
+.name_boots {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #8a8784;
+}
+
+.name_boots:first-of-type {
+  font-weight: bold;
+}
+
+.discount {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #ff7373;
+  padding: 8px 10px;
+}
+
+.id_boots {
+  font-size: 13px;
+  color: #bdb9b5;
+}
+
+.opisanie {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (4 slide) comments_block.                              
+=================================================================================================================================================================*/
+
+.comments_block-bg {
+  background-image: url(images/glenn-carstens-peters.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.comments_block {
+  display: flex;
+  justify-content: center;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.comment:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+ .comment:nth-child(3) {
+  margin-right: 25px;
+} 
+
+.rating {
+  display: flex;
+}
+
+.comment_after img {
+  border-radius: 50px;
+  border: 2px solid #FFF;
+}
+
+.name_after {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.comments {
+  font-size: 16px;
+  color: #fff;
+  background: rgba(90, 59, 59, 0.5);;
+  padding: 50px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 50px; 
+}
+
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (5 slide) news_block.                              
+=================================================================================================================================================================*/
+
+.news_block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.news_title {
+  text-align: center;
+  color: #623232;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.article_1 {
+  background-image: url(images/Article2.jpg);
+  width: 350px;
+  height: 350px;
+  text-align: left;
+  color: #FFF;
+  line-height: 26px;
+}
+
+.article_2 {
+  background-image: url(images/Article1.jpg);
+  width: 350px;
+  height: 350px;
+  text-align: left;
+  color: #FFF;
+  line-height: 26px;
+}
+
+.article_3 {
+  background-image: url(images/Article.jpg);
+  width: 350px;
+  height: 350px;
+  text-align: left;
+  color: #FFF;
+  line-height: 26px;
+}
+
+.data_news {
+  padding-left: 29px;
+  padding-top: 240px;
+}
+
+.description_news {
+  padding-left: 29px;
+}
+
+.description_news:hover {
+  color: #ff7373;
+  cursor: pointer;
+}
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (6 slide) block_helper.                             
+=================================================================================================================================================================*/
+
+.container_helper {
+  background-color: #ff7373;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.block_helper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  margin-left: 30px;
+}
+
+.img_message {
+  margin-top: 7px;
+}
+
+.question:nth-child(1) {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.question:nth-child(2) {
+  font-size: 16px;
+  color: #fff;
+}
+
+.help_button {
+  color: #fff;
+  background-color: #623232;
+  padding: 17px 30px;
+}
+
+.help_button:hover {
+  color: #ff7373;
+}
+
+/*================================================================================================================================================================
+                                                                      Описание стилей - (7 slide) footer.                             
+=================================================================================================================================================================*/
+
+footer {
+  background-color: #623232;
+  padding-top: 50px;
+}
+
+.footer_services {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #795151;
+  padding-bottom: 50px;
+}
+
+.service img {
+  margin-bottom: 25px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  line-height: 26px;
+}
+
+.footer_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.footer_contacts img {
+  margin-right: 20px;
+}
+
+.title_contacts {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ff7373;
+  margin-bottom: 5px;
+}
+
+.subtitle_contacts {
+  color: #fff;
+}
+
+.tel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #795151;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 740px;
+}
+
+.footer_nav ul li a {
+  color: #fff;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.footer_nav ul li a:hover {
+  color: #ff7373;
+  border-bottom: 2px solid #ff7373;
+}
+
+.footer_nav h4 {
+  text-transform: uppercase;
+  color: #ff7373;
+  font-size: 16px;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer_copyright {
+  color: #fff;
+}
+
+.footer_socials {
+  display: flex;
+  align-items: center;
+}
+
+.footer_socials img {
+  margin-left: 25px;
+}
+
+.footer_socials a:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
